@@ -1,0 +1,31 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: Eddie
+google_analytics: Eddie
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Eddie Fu's blog
+
+description: Stylish Jekyll Theme
+author:
+  name: Eddie
+  email: eddie.h.fu@gmail.com
+  github: nbfuhao
+  linkedin: nbfuhao
+  bio: Lead iOS Developer @ LiveAuctioneer
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
