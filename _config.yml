@@ -1,31 +1,42 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site settings
+title: Eddie Fu
+email: eddie.h.fu@gmail.com
+url: https://nbfuhao.github.io
+description: "Lead iOS Developer @ LiveAuctioneers, Hacking @ github.com/nbfuhao"
+skills: "iOS Developer, Objective C & Swift"
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://linkedin.com/in/nbfuhao
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/3873081/eddiehfu
+  - title: github
+    url: http://github.com/nbfuhao
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: New York City
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme'
+
+# Build settings
 markdown: kramdown
-disqus: Eddie
-google_analytics: Eddie
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Eddie Fu's blog
-
-description: Stylish Jekyll Theme
-author:
-  name: Eddie
-  email: eddie.h.fu@gmail.com
-  github: nbfuhao
-  linkedin: nbfuhao
-  bio: Lead iOS Developer @ LiveAuctioneer
-  email_md5: 726351295ec82e145928582f595aa3aa
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH:
+permalink: pretty
